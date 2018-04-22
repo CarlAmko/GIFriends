@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Chat from './Chat';
+import Room from './Room/Room';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-          <Chat/>
+          <Room/>
       </div>
     );
   }
